@@ -1,0 +1,198 @@
+#cccsstextarea_css {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    font-size: 16px;
+}
+
+#module_form .fieldset_blank,
+#codecranes_info,
+#codecranes_advertisement {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #d3d8db;
+    border-radius: 5px;
+}
+
+#codecranes_info .row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#codecranes_info .row .col-xs-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#codecranes_info .justify-content-center {
+    -ms-flex-pack: center !important;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+}
+
+#codecranes_info .codecranes_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#codecranes_info a:hover {
+    text-decoration: none;
+}
+
+#codecranes_info .logo a {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#codecranes_info .logo a svg {
+    width: 100%;
+    height: auto;
+}
+
+#codecranes_info .links {
+    font-size: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: normal;
+    -ms-flex-pack: normal;
+    justify-content: normal;
+}
+
+#codecranes_info .links a {
+    color: #263a85;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: normal;
+    -ms-flex-pack: normal;
+    justify-content: normal;
+}
+
+#codecranes_info .links form i,
+#codecranes_info .links a i {
+    margin-right: 5px;
+}
+
+#codecranes_info .links form + form,
+#codecranes_info .links a + a {
+    margin-left: 20px;
+}
+
+#codecranes_info .links form button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: normal;
+    -ms-flex-pack: normal;
+    justify-content: normal;
+    color: #263a85;
+}
+
+#codecranes_info .links form button:hover,
+#codecranes_info .links a:hover {
+    color: #9932cc;
+}
+
+#codecranes_info .codecranes_ajax_info {
+    text-align: center;
+    font-size: 15px;
+}
+#codecranes_info .codecranes_website {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+#codecranes_advertisement iframe {
+    height: 500px;
+}
+
+#content.bootstrap .cc_collapse {
+    position: relative;
+}
+
+#content.bootstrap .cc_collapse > .panel {
+    padding: 0;
+}
+
+#content.bootstrap .cc_collapse > .panel .panel-heading {
+    margin: 0;
+    padding-left: 10px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: normal;
+    -ms-flex-pack: normal;
+    justify-content: normal;
+}
+
+#content.bootstrap .cc_collapse > .panel .panel-heading .icon-link {
+    margin-right: 3px;
+}
+
+#content.bootstrap .cc_collapse > .panel .panel-heading .material-icons {
+    font-size: 32px;
+    margin-left: 5px;
+}
+
+#content.bootstrap .cc_collapse > .panel > .form-wrapper {
+    padding: 15px 20px 20px;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #codecranes_info .codecranes_header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    #codecranes_info .links {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+    #codecranes_info .links {
+        font-size: 18px;
+    }
+}
